@@ -1,0 +1,39 @@
+.banner_main_container{
+    display: flex;
+    justify-content: space-between;
+    padding:1.5em 2em;
+}
+
+.banner_left_container img{
+    width: 80%;
+}
+
+
+.banner_categories{
+    display:grid;
+    grid-template-columns: 300px 300px;
+}
+
+.banner_right_container img{
+    width:92%
+}
+
+.background_text{
+    position:absolute;
+    top:45%;
+    left:12%;
+    color:white
+}
+
+.banner_catagory_container{
+    position: relative;
+}
+
+.banner_text{
+    position: absolute;
+    color: white;
+    font-size: 0.8rem;
+    top: 54px;
+    left: 65px;
+
+}
